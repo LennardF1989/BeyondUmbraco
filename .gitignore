@@ -1,0 +1,11 @@
+# Generic
+/.vs
+/packages
+bin
+obj
+*.suo
+*.user
+
+# Umbraco
+/Src/BeyondUmbraco.Web/App_Data
+/Src/BeyondUmbraco.Web/umbraco
