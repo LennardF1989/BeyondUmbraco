@@ -272,6 +272,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Plugins\TagExtensions\decorators.js" />
     <Content Include="App_Plugins\TreeExtensions\decorators.js" />
     <Content Include="App_Plugins\TreeExtensions\dropdown.html" />
     <Content Include="config\grid.editors.config.js" />
@@ -313,6 +314,7 @@
     <Content Include="config\ClientDependency.config" />
     <Content Include="config\BackOfficeTours\getting-started.json" />
     <Content Include="App_Plugins\TreeExtensions\package.manifest" />
+    <Content Include="App_Plugins\TagExtensions\package.manifest" />
     <None Include="packages.config" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Partials\Grid\Editors\Textstring.cshtml" />
@@ -338,6 +340,7 @@
       <Name>BeyondUmbraco.Core</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
